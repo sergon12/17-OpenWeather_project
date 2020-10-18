@@ -1,0 +1,6 @@
+com\appl\dao\Dao.class
+com\appl\model\Day.class
+com\appl\openWeather\OpenWeatherRequest.class
+com\appl\controller\HelloController.class
+com\appl\Application.class
+com\appl\dao\Repo.class

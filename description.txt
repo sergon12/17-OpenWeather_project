@@ -1,0 +1,17 @@
+Проект
+Чтение даты и длительности светового дня из таблицы weather , в которую вносятся данные из проекта 105-OpenWeather
+
+Реализовано на основе и с применением подходов , взятых из SkynetPowerBIRestService - 
+
+dao,
+репозиторий, 
+способ:
+    @PostConstruct
+    private void postConstruct() {
+        jdbc = new JdbcTemplate(dataSource);
+    },
+запись данных из бд через конструктор:
+Day day = new Day(key, val);
+
+---
+
